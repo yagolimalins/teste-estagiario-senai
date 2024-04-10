@@ -80,12 +80,9 @@
 
   .cards-cursos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 32px;
   }
 }
 
 </style>
-
-<script setup lang="ts">
-</script>
