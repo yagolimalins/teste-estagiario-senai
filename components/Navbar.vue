@@ -5,7 +5,7 @@
       <img src="~/assets/logo-senai-blue.png" alt="logo">
     </div>
 
-    <div class="nav-menu" v-if="$viewport.isGreaterOrEquals('tablet')">
+    <div class="nav-menu">
       <ul class="nav-menu-list">
         <li class="nav-menu-list-item">
           <a href="#">Institucional</a>
@@ -48,13 +48,10 @@
   }
 }
 
+@media (max-width: 749px) {
+  .nav-menu{
+    display: none;
+  }
+}
+
 </style>
-
-<script setup>
-import { useNuxtApp } from '#app'
-const { $viewport } = useNuxtApp()
-
-watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {
-  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)
-})
-</script>
