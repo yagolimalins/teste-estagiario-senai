@@ -33,5 +33,5 @@ yarn dev --open
 
 ## TODO
 
-> * ### Implementar menu hamburger para resolução mobile
-> * ### Ajustar alinhamento do titulo da página
+* ### Implementar menu hamburger para resolução mobile
+* ### Ajustar alinhamento do titulo da página
