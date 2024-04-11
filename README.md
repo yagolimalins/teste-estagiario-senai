@@ -1,75 +1,37 @@
-# Nuxt 3 Minimal Starter
+# Página "Sobre o SENAI"
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Página desenvolvida para o processo seletivo de estágio como Desenvolvedor no SENAI
 
-## Setup
+Uma versão live do projeto final do projeto para demonstração pode ser encontrada servida no endereço:
 
-Make sure to install the dependencies:
+<https://teste-estagiario-senai.vercel.app>
+
+## Obtendo o projeto
+
+Clone e entre no diretório do projeto através dos comandos:
+
+```
+git clone https://github.com/yagolimalins/teste-estagiario-senai.git
+cd teste-estagiario-senai
+```
+
+## Configuração
+
+Já dentro do diretório do projeto instale as dependências através do comando:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Servidor de desenvolvimento
 
-Start the development server on `http://localhost:3000`:
+Inicie o servidor de desenvolvimento em `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+yarn dev --open
 ```
 
-## Production
+## TODO
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+> * ### Implementar menu hamburger para resolução mobile
+> * ### Ajustar alinhamento do titulo da página
