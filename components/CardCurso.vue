@@ -29,6 +29,7 @@
   height: 433px;
 
   .card-imagem {
+    background-image: url("~/assets/cursos/panetone.jpg");
     border-radius: 8px 8px 0 0;
     background-size: cover;
     background-position: center;

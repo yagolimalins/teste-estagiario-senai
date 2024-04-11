@@ -14,20 +14,7 @@
       </p>
     </div>
 
-    <div class="cards-unidades">
-      <CardUnidade
-          titulo="Senai Arapiraca"
-          descricao="As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta."
-      />
-      <CardUnidade
-          titulo="Senai Benedito Bentes"
-          descricao="As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta."
-      />
-      <CardUnidade
-          titulo="Senai Poço"
-          descricao="As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta."
-      />
-    </div>
+    <CardUnidade/>
 
     <div class="cards-cursos">
       <CardCurso
