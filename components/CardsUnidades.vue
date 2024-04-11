@@ -4,9 +4,9 @@
     <div class="card-info">
       <h1 class="card-info-titulo">Senai Arapiraca</h1>
       <p class="card-info-desc">As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta.</p>
-      <div class="card-info-botao">
+      <button class="card-info-botao">
         <p class="card-info-botao-texto">Ver mais</p>
-      </div>
+      </button>
     </div>
   </div>
 
@@ -15,9 +15,9 @@
     <div class="card-info">
       <h1 class="card-info-titulo">Senai Benedito Bentes</h1>
       <p class="card-info-desc">As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta.</p>
-      <div class="card-info-botao">
+      <button class="card-info-botao">
         <p class="card-info-botao-texto">Ver mais</p>
-      </div>
+      </button>
     </div>
   </div>
 
@@ -26,9 +26,9 @@
     <div class="card-info">
       <h1 class="card-info-titulo">Senai Poço</h1>
       <p class="card-info-desc">As equipes do SESI orientam as empresas na implementação e no uso correto da ferramenta.</p>
-      <div class="card-info-botao">
+      <button class="card-info-botao">
         <p class="card-info-botao-texto">Ver mais</p>
-      </div>
+      </button>
     </div>
   </div>
 
@@ -105,6 +105,10 @@
         line-height: 21px;
         color: $branco;
       }
+    }
+
+    .card-info-botao:hover {
+      background-color: $azul-escuro;
     }
 
   }
