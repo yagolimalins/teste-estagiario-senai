@@ -1,5 +1,5 @@
 <template>
-  <main class="main width-conteudo padding-global">
+  <main class="main padding-global">
     <div class="conteudo">
       <h1>Unidades</h1>
       <p>Fazendo parte de um sistema nacional, composto por 27 federações estaduais

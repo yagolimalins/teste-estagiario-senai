@@ -3,7 +3,7 @@
   <Banner/>
   <div class="body">
     <body>
-    <div class="conteudo-principal width-conteudo">
+    <div class="conteudo-principal ">
       <Main/>
       <Aside class="aside"/>
     </div>
@@ -16,7 +16,7 @@
 <style lang="scss" scoped>
 
 .body {
-  padding: 48px 15px 48px 15px;
+  padding: 48px 0 48px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
