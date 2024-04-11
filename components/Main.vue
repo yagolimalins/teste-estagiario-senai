@@ -14,7 +14,7 @@
       </p>
     </div>
 
-    <CardUnidade/>
+    <CardsUnidades/>
 
     <div class="cards-cursos">
       <CardCurso
