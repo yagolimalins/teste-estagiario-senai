@@ -4,14 +4,14 @@
     <div class="card-conteudo">
       <div class="card-dados">
         <div class="card-dados-titulo">
-          <h1>{{curso}}</h1>
+          <h1>{{ curso }}</h1>
         </div>
         <div class="card-dados-descricao">
-          {{descricao}}
+          {{ descricao }}
         </div>
         <div class="card-dados-datavalor">
-          <p>Início: <strong id="data">{{inicio}}</strong></p>
-          <p>Investimento: <strong id="valor">{{valor}}</strong></p>
+          <p>Início: <strong id="data">{{ inicio }}</strong></p>
+          <p>Investimento: <strong id="valor">{{ valor }}</strong></p>
         </div>
       </div>
       <div class="card-botao">CONFIRA</div>
@@ -25,12 +25,14 @@
   display: flex;
   flex-direction: column;
   background-color: $cinza-claro;
+  width: 373px;
   height: 433px;
 
   .card-imagem {
-    background-color: $azul-footer;
     border-radius: 8px 8px 0 0;
-    width: 373px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 195px;
   }
 
@@ -41,7 +43,6 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 310px;
       height: 162px;
 
       .card-dados-titulo {
@@ -85,7 +86,6 @@
       color: $cinza-claro;
       background-color: $azul-titulo-curso;
       text-align: center;
-      width: 310px;
       height: 32px;
       border-radius: 8px;
       border: 1px;
@@ -102,12 +102,13 @@
 </style>
 
 <script>
+
 export default {
   props: {
     curso: String,
     descricao: String,
     inicio: String,
-    valor: String
+    valor: String,
   }
 }
 </script>

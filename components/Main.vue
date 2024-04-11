@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main class="main width-conteudo padding-global">
     <div class="conteudo">
       <h1>Unidades</h1>
       <p>Fazendo parte de um sistema nacional, composto por 27 federações estaduais
@@ -31,18 +31,20 @@
 
     <div class="cards-cursos">
       <CardCurso
+          class="card-curso"
           curso="FABRICAÇÃO DE PANETONES E CHOCOTONES"
           descricao="O Curso de Iniciação Profissional em Fabricação de Panetones e Chocotones do
           SENAI Alagoas busca preparar os alunos para a fabricação..."
           inicio="18/10/2021"
           valor="6x de R$ 66,50"
       />
-      <CardCurso
-          curso="FABRICAÇÃO DE PANETONES E CHOCOTONES"
-          descricao="O Curso de Iniciação Profissional em Fabricação de Panetones e Chocotones do
+      <CardCurso class="card-curso"
+                 imagem="~/assets/cursos/panetone.jpg"
+                 curso="FABRICAÇÃO DE PANETONES E CHOCOTONES"
+                 descricao="O Curso de Iniciação Profissional em Fabricação de Panetones e Chocotones do
           SENAI Alagoas busca preparar os alunos para a fabricação..."
-          inicio="18/10/2021"
-          valor="6x de R$ 66,50"
+                 inicio="18/10/2021"
+                 valor="6x de R$ 66,50"
       />
     </div>
   </main>
@@ -82,6 +84,16 @@
     display: flex;
     flex-direction: row;
     gap: 32px;
+  }
+
+  @media (max-width: 749px) {
+    .cards-cursos {
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-curso {
+      width: 100%;
+    }
   }
 }
 

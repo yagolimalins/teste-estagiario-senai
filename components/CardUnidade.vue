@@ -77,7 +77,7 @@ export default {
   props: {
     imagem: String,
     titulo: String,
-    descricao: String
+    descricao: String,
   }
 }
 </script>

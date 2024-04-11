@@ -5,7 +5,7 @@
     <body>
     <div class="conteudo-principal width-conteudo">
       <Main/>
-      <Aside class="aside" v-if="$viewport.isGreaterThan('tablet')"/>
+      <Aside class="aside"/>
     </div>
     </body>
   </div>
@@ -31,17 +31,12 @@
   }
 
 
+  @media (max-width: 1199px) {
+    .aside {
+      display: none;
+    }
+  }
+
 }
 
 </style>
-
-<script setup>
-import {useNuxtApp} from '#app'
-import Banner from "~/components/Banner.vue";
-
-const {$viewport} = useNuxtApp()
-
-watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {
-  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)
-})
-</script>
