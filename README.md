@@ -30,8 +30,3 @@ Inicie o servidor de desenvolvimento em `http://localhost:3000`:
 ```bash
 yarn dev --open
 ```
-
-## TODO
-
-* ### Implementar menu hamburger para resolução mobile
-* ### Ajustar alinhamento do titulo da página
