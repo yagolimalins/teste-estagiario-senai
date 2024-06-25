@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   background-color: #F2F2F2;
-  height: 104px;
 }
 
 </style>
