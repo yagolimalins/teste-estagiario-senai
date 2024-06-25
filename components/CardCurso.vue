@@ -14,7 +14,7 @@
           <p>Investimento: <strong id="valor">{{ valor }}</strong></p>
         </div>
       </div>
-      <div class="card-botao">CONFIRA</div>
+      <button class="card-botao">CONFIRA</button>
     </div>
   </div>
 </template>
@@ -86,10 +86,8 @@
     .card-botao {
       color: $cinza-claro;
       background-color: $azul-titulo-curso;
-      text-align: center;
-      height: 32px;
+      width: 100%;
       border-radius: 8px;
-      border: 1px;
       padding: 8px;
       gap: 8px;
       font-family: "Open Sans";
